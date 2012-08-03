@@ -1,0 +1,478 @@
+<html><head><title>DARTS Help</title></head>
+<body style="margin: 0.25in;">
+
+<div align="center"><big>Help for <b>DARTS</b> (<a href="http://www.davearonson.com/" target="_new"><b>D</b>ave
+<b>A</b>ronson</a>'s <b>R</b>ole <b>T</b>racking <b>S</b>ystem)</big></div>
+
+<dl>
+
+<p><dt>What <i>is</i> DARTS?
+
+<p><dd>DARTS is a helper for <a href="http://www.toastmasters.org/"
+target="_new">Toastmasters</a> clubs.  In particular, it helps the Vice
+President of Education, or whoever it is that assigns meeting roles.  It can
+also be useful for anyone else who wants to look at who did what when in the
+past.  If you are not in <a href="http://www.toastmasters.org/"
+target="_new">Toastmasters</a>, you are not going to find DARTS useful.  In
+fact, if you are not in a <a href="http://www.toastmasters.org/"
+target="_new">Toastmasters</a> club, and specifically one using <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a>, you
+probably won't be able to run DARTS at all.  (Except for the <a
+href="http://www.davearonson.com/darts/darts.html" target="_new">demo</a> at <a
+href="http://www.davearonson.com/" target="_new">the author's
+web site</a>.)
+
+<p><dt>So what does DARTS <i>do</i>?
+
+<p><dd>Mainly, it figures out whose turn it is to fill what role.  It also can
+present a printable agenda, let you look at which current member did what
+meeting roles how many times in a given timeslice of your club's past, and
+suggest what roles each current member should take.  Lastly, it can also let
+you view some raw data, including the past history in <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a>'s own
+format (which includes lapsed members), the upcoming duty rosters, and DARTS's
+own configuration file.
+
+<p><dt><a name="how"></a>How does it decide who should do what?
+
+<p><dd>It looks at the data on your <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a>-based club web site, mainly:
+<ul>
+ <li>who your members are,
+ <li>what roles you use,
+ <li>who did what roles when in the past,
+ <li>who has signed up to do what when in the future,
+ <li>and an optional configuration file, which says what roles to assign,
+     in what order, and what members are absent long-term.
+</ul>
+
+<p>After asking <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> for all this information, DARTS makes a list of
+people for each role, sorted by who's done it least recently.  (Sort of.  See
+below for the boring details.)  When you tell it to assign roles, it goes
+through all the roles, and checks their lists.  The person who appears earliest
+on the list, who isn't marked absent, and doesn't already have a role for that
+meeting, is assigned the role (and marked busy).
+
+<p>(Long story short, the lists are sorted by how much you've done this role
+lately.  Long story long, you get a number of "points" for being listed to do
+that role at the meeting on the date in question, though of course this means
+that DARTS won't be trying to assign it to anyone.  You get one-half that for
+having done (or being listed to do) this role at the previous meeting, <i>or</i>
+being listed to do it at the <i>next</i> meeting, one-third for <i>two</i>
+meetings before or after, and so on.  You also get a little bonus on each role,
+based on how busy you've been with <i>all</i> roles together.  These all get
+added up to make your "rank" for this role.  The lists for each role, are then
+sorted by rank.)
+
+<p><dt>So DARTS then modifies the signup files on <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> to make
+the assignments?
+
+<p><dd>No, not really.  DARTS just tells you who to assign.  Someone with
+authority to edit the rosters, has to actually do so and make the assignments.
+
+<p><dt>Do you mean you don't need to be a delegated roster editor, to use DARTS?
+
+<p><dd>That's right.  They have to be a member of a club using <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a>, and the
+club's webmaster has to have installed DARTS on their web site, but the user
+doesn't have to be the webmaster or VPE or anything else special.  Ordinary
+members might find it useful to figure out what it's going to be their turn to
+do, soon.
+
+<p><dt>So how <i>does</i> one install DARTS for one's club?
+
+<p><dd>A <a href="http://www.toastmasters.org/" target="_new">Toastmasters</a>
+club's webmaster has to copy DARTS's HTML file (publicly available at <a
+href="http://www.davearonson.com/darts/darts.html"
+target="_new">http://www.davearonson.com/darts/darts.html</a> or <a
+href="http://fairfax.freetoasthost.org/files/darts.html"
+target="_new">http://fairfax.freetoasthost.org/files/darts.html</a>), to the
+club's own file space on <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a>.  (It doesn't matter whether they put it in the
+public or private files.  I recommend using the private files, so that the users
+must log in first.)  The admin may also want to create a configuration file,
+called darts.cfg, which must be in the private files.
+
+<p><dt>Why does it have to be copied?  Can't we just refer to the original?
+
+<p><dd>DARTS uses AJAX (Asynchronous Javascript And XML; don't worry if you
+don't understand what that means) techniques to ask your club's <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> site for
+the data.  According to the security rules of that technique, the request has to come
+from the same domain as the server answering it.  In this case, that means that
+the web page making the request, must be on the same site as the information
+it's looking for.  The information has to come from your club's web site, so the
+web page has to be on your club's web site.
+
+<p><dt>And then, how does one use it?
+
+<p><dd>Then, <i>any</i> member can go look at it, </i>with Javascript turned
+on</i>.
+
+<p><dt>Why is Javascript necessary?
+
+<p><dd>Because DARTS is entirely written in JavaScript.  The HTML code that gets
+copied, knows where to look for the JavaScript code and this help file.
+
+<p><dt>It grabs Javascript code from somewhere else?  That scares me!  How do I
+know it's not doing something malicious?
+
+<p><dd>If you're worried, feel free to look in the HTML, and see where the
+Javascript is coming from.  Then feel free to go look at the Javascript.  I've
+tried to make it as clear as possible.  I can't guarantee that there aren't any
+exploitable security holes, as I am not a web or Javscript security guru, but
+feel free to have such a guru look at it.  If you find any such holes or other
+defects, tell me and I'll fix it.  Nobody's found any security holes yet.
+
+<p><dt>Okay, I'll try it.  Once I go look at it, with Javascript on, then what?
+
+<p><dd>Then DARTS should ask your club's <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> web site for the assorted data.  It may ask you
+for your username and password; these are the same ones as for your club's <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> web site.
+(In fact, the request <i>is</i> really coming from your club's <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> web site.
+It's doing so because DARTS is asking it for this information on your behalf,
+and any attempt to get at that information makes <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> ask you to
+log in.)
+
+<p>When DARTS has all the data, it will give you a list of buttons to push for
+various functions, data, and help.
+
+<p><dt>How do I print an agenda?
+
+<p><dd>First of course, click on "Print Agenda" from the main menu.  DARTS will then fetch your club's agenda template.
+
+<p><dt>My club's <i>what?</i>
+
+<p><dd>Your club's agenda template is an HTML file, called agendaTemplate.html,
+in your club's private files.  It tells DARTS what you want your agenda to look
+like, including some placeholders for where various bits of information about
+each meeting go.  If you don't have one yet, DARTS will use a default.
+
+<p><dt>Okay, so once it's fetched this agenda template thingy, then what?
+
+<p><dd>Then DARTS will let you pick a date, and let you edit the agenda
+template as you like.  (Unfortunately, it won't save your changes for next
+time, but your site's webmaster can save a new version if needed.)  When you're
+ready, you can click the button at the bottom that says "Print".  Then DARTS
+will give you a new window, with an agenda in it, that you can print from your
+browser.
+
+<p><dt>So if I want to edit it, I have to know HTML?
+
+<p><dd>Yes.  I may eventually add a WYSIWYG editor to it, but for now, you have to edit raw HTML.
+
+<p><dt>So what are these placeholders?
+
+<p><dd>The ones currently used are:
+<table border="1">
+ <tr><td>$DATE</td><td>The date of the meeting</td></tr>
+ <tr><td>$TMOD</td><td>Toastmaster of the Day</td></tr>
+ <tr><td>$WOTD</td><td>Word of the Day person</td></tr>
+ <tr><td>$INVO</td><td>Invocator</td></tr>
+ <tr><td>$HUMOR</td><td>Humorist</td></tr>
+ <tr><td>$SPKR1</td><td>Speaker #1</td></tr>
+ <tr><td>$SPKR2</td><td>Speaker #2</td></tr>
+ <tr><td>$SPKR3</td><td>Speaker #3</td></tr>
+ <tr><td>$SPKR4</td><td>Speaker #4</td></tr>
+ <tr><td>$BKUP</td><td>Backup Speaker</td></tr>
+ <tr><td>$EVAL1</td><td>Evaluator #1</td></tr>
+ <tr><td>$EVAL2</td><td>Evaluator #2</td></tr>
+ <tr><td>$EVAL3</td><td>Evaluator #3</td></tr>
+ <tr><td>$EVAL4</td><td>Evaluator #4</td></tr>
+ <tr><td>$TTM</td><td>Table Topics Master</td></tr>
+ <tr><td>$GENEVAL</td><td>General Evaluator</td></tr>
+ <tr><td>$AHCTR</td><td>Ah Counter</td></tr>
+ <tr><td>$TIMER</td><td>Timer</td></tr>
+ <tr><td>$GRAMMAR</td><td>Grammarian</td></tr>
+ <tr><td>$CUSTOM1</td><td>Filler of Custom Role #1</td></tr>
+ <tr><td>$CUSTOM2</td><td>Filler of Custom Role #2</td></tr>
+ <tr><td>$CUSTOM3</td><td>Filler of Custom Role #3</td></tr>
+ <tr><td>$CUSTOM4</td><td>Filler of Custom Role #4</td></tr>
+ <tr><td>$CUSTOM5</td><td>Filler of Custom Role #5</td></tr>
+ <tr><td>$CUSTOM6</td><td>Filler of Custom Role #6</td></tr>
+ <tr><td>$CUSTOM7</td><td>Filler of Custom Role #7</td></tr>
+ <tr><td>$SPNUM1</td><td>Number of Speech #1</td></tr>
+ <tr><td>$SPTIME1</td><td>Timeframe of Speech #1</td></tr>
+ <tr><td>$SPMAN1</td><td>Manual of Speech #1</td></tr>
+ <tr><td>$SPOBJ1</td><td>Objectives of Speech #1</td></tr>
+ <tr><td>$SPINT1</td><td>Introduction to Speech #1 (not recommended to use)</td></tr>
+ <tr><td>$SPTTL1</td><td>Title of Speech #1</td></tr>
+ <tr><td>$SPNUM2</td><td>Number of Speech #2</td></tr>
+ <tr><td>$SPTIME2</td><td>Timeframe of Speech #2</td></tr>
+ <tr><td>$SPMAN2</td><td>Manual of Speech #2</td></tr>
+ <tr><td>$SPOBJ2</td><td>Objectives of Speech #2</td></tr>
+ <tr><td>$SPINT2</td><td>Introduction to Speech #2 (not recommended to use)</td></tr>
+ <tr><td>$SPTTL2</td><td>Title of Speech #2</td></tr>
+ <tr><td>$SPNUM3</td><td>Number of Speech #3</td></tr>
+ <tr><td>$SPTIME3</td><td>Timeframe of Speech #3</td></tr>
+ <tr><td>$SPMAN3</td><td>Manual of Speech #3</td></tr>
+ <tr><td>$SPOBJ3</td><td>Objectives of Speech #3</td></tr>
+ <tr><td>$SPINT3</td><td>Introduction to Speech #3 (not recommended to use)</td></tr>
+ <tr><td>$SPTTL3</td><td>Title of Speech #3</td></tr>
+ <tr><td>$SPNUM4</td><td>Number of Speech #4</td></tr>
+ <tr><td>$SPTIME4</td><td>Timeframe of Speech #4</td></tr>
+ <tr><td>$SPMAN4</td><td>Manual of Speech #4</td></tr>
+ <tr><td>$SPOBJ4</td><td>Objectives of Speech #4</td></tr>
+ <tr><td>$SPINT4</td><td>Introduction to Speech #4 (not recommended to use)</td></tr>
+ <tr><td>$SPTTL4</td><td>Title of Speech #4</td></tr>
+</table>
+
+<p>I may add more later, depending what I can somehow extract from FTH, and maybe
+establish other names for the above.  These ones here should stay good, though,
+for backward compatibility.
+
+<p><dt>How do I use the Assigner?
+
+<p><dd>Once you push this button, DARTS will list your members, the roles you
+use, and the dates for which duty rosters have been created.  Then it's a
+relatively simple five-step process:
+
+<ol>
+
+ <p><li>Pick a date.
+
+ <p><li>Make sure that the members checked, are those you want to consider
+ eligible for assignment.  (Note: if they already have a role at that meeting,
+ they won't be assigned anything else after all.)
+
+ <p><li>Make sure that the roles checked, are the ones you want to assign.
+
+ <p><li>Make sure that the roles are in the order you want to assign them.
+ Move a role up by clicking on the word "up" beside it, and move it down
+ by clicking on the word (okay, abbreviation) "dn" beside it.
+
+ <p><li>Click the "ASSIGN ROLES!" button.
+
+</ol>
+
+<p><dt>What difference does it make what order the roles are assigned in?
+
+<p><dd>Your newer members will not have filled any roles ever yet, so they will be
+most likely to get assigned to a given role.  If you assign the easier roles
+first, then your newer members can fill those roles, and watch how the other
+roles are done, before having to fill the more advanced roles.
+
+<p><dt>Anyhow, what happens after we click the button? 
+
+<p><dd>Then DARTS will tell you who should fill each role that you want to
+assign.
+
+<p><dt>And... then what?
+
+<p><dd>If you're happy with the assignments, and you're authorized to edit the
+duty rosters, go ahead and enter them manually.  If you're <i>not</i> happy
+with the assignments DARTS suggests, feel free to change the data they're based
+on, ignore them, change them, tell DARTS to bug off, whatever.
+
+<p><dt>Can DARTS handle custom roles?
+
+<p><dd>Yes.
+
+<p><dt>How?
+
+<p><dd>Treat them just like any other.  DARTS doesn't know they're custom; it
+only knows what roles <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> says you use.
+
+<p><dt>What about roles that we have several of at each meeting, like multiple
+speakers and evaluators?
+
+<p><dd>DARTS handles them all together for purposes of building the queues, but
+separately for making assignments.  So, you can't just tell it "assign all
+Speakers" or "assign all Evaluators", but you can certainly tell it "assign
+Speaker #1" and "assign Speaker #2" while leaving all other Speaker slots
+alone.  Same for Evaluators, of course.
+
+<p><dt>What about having assignment gaps in multiple-instance roles?
+For instance, we have someone assigned to tell a joke at the beginning, someone
+else assigned to tell a joke at the end, and sometimes, but not always, someone
+signs up tell a joke in the middle.  We call these Joker #1, #3, and #2.  Can
+we tell DARTS "assign Joker #1" and "assign Joker #3", and leave Joker #2
+voluntary?
+
+<p><dd>Yes you can!  In fact, you can even use it to extend the speaker list
+with custom roles.
+
+<p><dt>What do you mean, "extend the speaker list"?
+
+<p><dd>The default role set has room for only four speakers and evaluators.
+Say for instance you want six.  <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> allows you seven custom roles, so you can use
+four of them for Speaker #5, Speaker #6, Evaluator #5, and Evaluator #6.
+(Unfortunately, <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> will not then allow you to enter the additional
+information about the speeches.) 
+
+<p><dt>And DARTS will still realize that all the Speaker #whatever are really
+the same thing for the purpose of history, even though these custom ones won't
+be right after the normal ones?
+
+<p><dd>Right, so long as it ends with a space, a # sign, and a single digit.
+That applies to any repeated role, be it Speaker, Evaluator, or your custom
+Jokers.
+
+<p><dt>You mentioned a configuration file.  Tell me more about that.
+
+<p><dd>First, as I said earlier, it has to be named darts.cfg and located in the
+private file storage space of your club's <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> web site.
+There are four kinds of lines allowed in the file:
+
+<ol>
+
+ <p><li>Assignment lines have the word "assign" and the role to assign, such as:
+
+ <p><span style="font-family:courier">
+  assign Toastmaster<br>
+  assign Word of the Day<br>
+  assign Speaker #1<br>
+ </span>
+
+ <p>The role name must exactly match what <a href="http://www.freetoasthost.org/"
+ target="_new">FreeToastHost</a> calls it.  DARTS will assign the roles in the
+ same order as you list them here, unless you change it on DARTS's screen.
+
+ <p>You cannot combine these on a single line, since a custom role name may
+ contain a comma or whatever character is chosen to separate them.
+
+ <p><li>Absence lines have the word "absent" and the name of a person who is
+ absent long-term, such as:
+
+ <p><span style="font-family:courier">absent Joe Shmoe</span>.
+ 
+ <p>Again, the name must exactly match that used by <a
+ href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a>.  In this
+ case it must match the "Name" in the Member Profile, not to be confused with
+ the "Username", which would be in the format <span
+ style="font-family:courier">"joe.shmoe"</span>.
+
+ <p>You cannot combine these on a single line, since a name may contain a comma
+ or whatever character is chosen to separate them.
+
+ <p><li>Comments start with a # sign, such as:
+
+ <p><span style="font-family:courier"># This is a comment</span>.
+
+ <p><li>Blank lines have no content on them at all, or only "whitespace" (blanks
+ and tabs).
+
+</ol>
+
+<p>You can see an example at <a
+href="http://www.davearonson.com/darts/members/files/darts.cfg"
+target="_new">http://www.davearonson.com/darts/members/files/darts.cfg</a> or <a
+href="http://fairfax.freetoasthost.org/files/dartsSAMPLE.cfg"
+target="_new">http://fairfax.freetoasthost.org/files/dartsSAMPLE.cfg</a>
+
+<p><dt>So you can't tell DARTS who will be absent <i>when</i>?
+
+<p><dd>No, not at this time.  I had that in there for a while, but the wide
+variety of possible date formats made this very hairy.  Besides, DARTS will
+usually be used for only one date at a time.  The intended use of absence lines,
+is for long-term absences.  Absences on a "meeting by meeting" basis can be
+handled by manually unchecking the box next to the person's name.
+
+<p><dt>Can I use DARTS for multiple dates at once?  If I do one, will it
+remember what it did, if I want to then do another?
+
+<p><dd>No.  DARTS starts from scratch each time.  If you want to do multiple
+dates, such as if your club is just starting to assign roles or has extended
+how far out it assigns, you have to manually enter each date and reload DARTS
+before doing the next date.
+
+<p><dt>What do you mean, "reload" DARTS?
+
+<p><dd>Press control-R (or on a Mac, command-R), to tell your browser to reload
+the page.  (At least, that will work on Netscape and its assorted derivatives
+like Mozilla and Firefox.  On Explorer, ironically enough, that won't work; you
+have to hit control-N to make it open a new window, though that will
+automagically load DARTS into it too.)
+
+<p><dt>Why is that necessary?
+
+<p><dd>It makes DARTS ask <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> for the information again.  That's the only way
+it can get the updates you will have just made.  Maybe I'll put in an easier
+way later....
+
+<p><dt>If I have trouble, who do I call?
+
+<p><dd>Nobody.  Nobody pays me the big bucks necessary for me to provide 24/7
+phone tech support for this!  But, you can go to the <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> tech
+support forum on <a href="http://www.igroops.com/" target="_new">iGrOOps</a>,
+register if you haven't yet, and either post in the forum, or send me a private
+message.  (Please only do that if your problem involves private information!
+Otherwise, please post in the Support Requests forum, so that other people can
+learn from it too.)
+
+<p><dt>Oh, so this <i>is</i> a part of <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a>?
+
+<p><dd>Not quite.  If it messes up, don't blame Bo.  It's entirely my own
+fault, er, creation.  The connection with <a
+href="http://www.freetoasthost.org/" target="_new">FreeToastHost</a> is that it
+uses the data that <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> stores.  So, it won't work elsewhere, but it's
+an add-on that I am solely responsible for.
+
+<p><dt>Is there any more direct way I can get in touch with you?
+
+<p><dd>I'd very much prefer you didn't, since going to <a
+href="http://www.igroops.com/" target="_new">iGrOOps</a> means that you're much
+more likely to read the questions other people have asked, and their answers,
+so I don't have to repeat myself.  But, if you really feel that posing your
+question there, whether in the <a href="http://www.freetoasthost.org/"
+target="_new">FreeToastHost</a> tech support forum or in a private message,
+just won't do, you can send me email.
+
+<p><dt>So what's your address?
+
+<p><dd>I don't give out an address.  There are two ways you can contact me:
+
+<ol>
+
+<p><li>Use <a
+href="http://htmlgear.tripod.com/feed/control.feed?a=render&i=1&u=davearonson"
+target="_new">this form</a>, but you <i>must</i> remember to fill in your own
+email address, so I can send a reply, and preferably a subject line, so I know
+it isn't spam!
+
+<p><li>Take your own name, remove the spaces, and tack on 2Dave.  (Also remove
+any other characters that aren't legal in email addresses.  If you're not sure,
+stick to letters and numbers.)  For example, if you're Jean D'Eaux, you'd get
+JeanDEaux2Dave.  Then, send it to that username at my main domain, which is <a
+href="http://www.davearonson.com/" target="_new">davearonson.com</a>.  (No, I'm
+not going to put it all together for you; it's an antispam device, so that would
+defeat the purpose.)
+
+</ol>
+
+<p><dt>What features are you working on, or at least considering?
+
+<dd><ul>
+
+<p><li>Marking people as "reliable", and certain roles as "only assign to
+reliable people".
+
+<p><li>Restricting Evaluator to people who have spoken.  (Possibly a
+configurable number of times, and possibly with exceptions.)
+
+<p><li>A button on the Assigner, that would write the assignments to the club's
+data files.  Unfortunately, they seem to have some security in place that makes
+that impossible, but there may be a way around it.
+
+<p><li>Reporting who, in a given timeslice, has done each role a given number of
+times.  For example, you could ask it "over the past year, who has spoken at
+least twice, evaluated at least twice, and done everything else at least once?".
+
+</ul>
+
+</dl>
+
+</body></html>

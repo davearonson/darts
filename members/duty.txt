@@ -1,0 +1,7 @@
+March 5, 2009	gus.cannon	X	X	X		jake.blues				jb.lenoir	elwood.blues	charley.patton	curley.weaver	X	gus.cannon	X	jb.lenoir	X	X	curley.weaver	X	X	X		
+March 6, 2009	gus.cannon	X	X	X	elwood.blues					jake.blues	charley.patton	jb.lenoir	curley.weaver	X	gus.cannon	X	jb.lenoir	X	X	curley.weaver	X	X	X		
+March 19, 2009	slim.harpo	X	X	X	huddie.ledbetter	jb.lenoir	bob.hicks			jb.lenoir	charley.patton	perry.bradford		bob.hicks	john.cephas	X	mamie.smith	X		lonnie.johnson	elwood.blues	X	X		
+April 2, 2009	gus.cannon	X	X	X	gary.davis	curley.weaver	charley.patton			slim.harpo	huddie.ledbetter	artie.matthews		mamie.smith	lonnie.johnson	X	gary.davis	X	victoria.spivey	john.cephas	perry.bradford	X	X		
+April 16, 2009		X	X	X	gary.davis											X		X		gary.davis		X	X		
+May 7, 2009		X	X	X												X		X				X	X		
+May 21, 2009		X	X	X												X		X				X	X		

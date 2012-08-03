@@ -1,0 +1,115 @@
+August 5, 2004	sonny.williamson	X	X	X	guitar.slim	joe.turner	jimmy.reed	X		roosevelt.sykes	gus.cannon	john.estes	X	blind.lemon.jefferson	fats.waller	X		X				X	
+August 19, 2004	gus.cannon	X	X	X	furry.lewis	blind.blake		X		joe.turner	blind.lemon.jefferson		X	t-bone.walker	john.estes	X	james.cotton	X	sonny.williamson	james.cotton		X	
+September 2, 2004	blind.blake	X	X	X	guitar.slim	fats.waller	johnny.shines	X		joe.turner	sonny.terry	blind.lemon.jefferson	X	john.estes	sonny.williamson	X	bukka.white	X		bukka.white		X	
+September 16, 2004	joe.turner	X	X	X	magic.sam	jimmy.witherspoon		X		sonny.williamson	gus.cannon		X	sonny.terry		X		X		furry.lewis		X	
+October 7, 2004	gus.cannon	X	X	X		elmore.james	bukka.white	X		joe.turner	willie.brown		X	james.cotton	john.estes	X	magic.sam	X	blind.lemon.jefferson	johnny.shines		X	
+October 21, 2004	blind.lemon.jefferson	X	X	X	mance.lipscomb	gus.cannon		X		jimmy.witherspoon	john.estes		X	blind.lemon.jefferson	blind.lemon.jefferson	X		X				X	
+November 4, 2004	john.estes	X	X	X		johnny.shines	mance.lipscomb	X		blind.lemon.jefferson	magic.sam		X	elmore.james	sonny.williamson	X	james.cotton	X	gus.cannon	james.cotton		X	
+November 18, 2004	sonny.williamson	X	X	X	t-bone.walker	james.cotton	mance.lipscomb	X		john.estes	blind.lemon.jefferson	gus.cannon	X	jimmy.witherspoon	sonny.williamson	X	fats.waller	X	magic.sam	robert.nighthawk		X	
+December 2, 2004	james.cotton	X	X	X				X			roosevelt.sykes		X	blind.lemon.jefferson	joe.turner	X	furry.lewis	X	sonny.williamson	magic.sam		X	
+December 16, 2004	magic.sam	X	X	X	sonny.williamson			X					X	skip.james		X	otis.rush	X				X	
+January 6, 2005	fats.waller	X	X	X	otis.rush			X				elmore.james	X	sonny.williamson	skip.james	X	blind.lemon.jefferson	X	john.estes	james.cotton		X	
+January 20, 2005	sonny.williamson	X	X	X	robert.nighthawk			X		skip.james			X	john.estes	gus.cannon	X	otis.rush	X	roosevelt.sykes	t-bone.walker		X	
+February 3, 2005	bukka.white	X	X	X	roosevelt.sykes			X			james.cotton		X	gus.cannon	elmore.james	X	blind.lemon.jefferson	X	jimmy.witherspoon	blind.lemon.jefferson		X	
+February 17, 2005	james.cotton	X	X	X				X					X	magic.sam	buddy.guy	X	bukka.white	X	robert.nighthawk	buddy.guy		X	
+March 3, 2005	robert.nighthawk	X	X	X	gus.cannon	johnny.shines	brownie.mcghee	X		james.cotton	otis.rush	willie.brown	X	jimmy.witherspoon		X	john.estes	X	otis.spann	sonny.williamson		X	
+March 17, 2005	elmore.james	X	X	X		otis.rush		X		blind.lemon.jefferson			X	bukka.white	roosevelt.sykes	X	walter.horton	X	rice.miller	james.cotton		X	
+April 7, 2005	johnny.shines	X	X	X		willie.mctell	robert.nighthawk	X		gus.cannon	sonny.williamson		X	otis.spann	blind.lemon.jefferson	X	rice.miller	X	brownie.mcghee	john.estes		X	
+April 21, 2005	sonny.williamson	X	X	X	slim.harpo	buddy.guy		X			bukka.white		X	robert.nighthawk	james.cotton	X	elmore.james	X	gus.cannon	rice.miller		X	
+May 5, 2005	roosevelt.sykes	X	X	X	bukka.white	james.cotton		X		blind.lemon.jefferson	buddy.guy		X	slim.harpo	john.estes	X	gus.cannon	X	walter.horton	brownie.mcghee		X	
+May 19, 2005	blind.lemon.jefferson	X	X	X	slim.harpo	john.lee.hooker	otis.spann	X		gus.cannon	johnny.shines	robert.nighthawk	X	elmore.james	james.cotton	X	bukka.white	X	brownie.mcghee	rice.miller		X	
+June 2, 2005	gus.cannon	X	X	X	robert.nighthawk	walter.horton		X		bukka.white	john.estes		X	buddy.guy	sonny.williamson	X	elmore.james	X	james.cotton	slim.harpo		X	
+June 16, 2005	robert.nighthawk	X	X	X	bukka.white	brownie.mcghee		X		sonny.williamson	rice.miller		X	blind.lemon.jefferson	john.estes	X	james.cotton	X	slim.harpo	elmore.james		X	
+July 21, 2005	buddy.guy	X	X	X	bukka.white	rice.miller		X		roosevelt.sykes	elmore.james		X	james.cotton	slim.harpo	X	brownie.mcghee	X	brownie.mcghee	brownie.mcghee		X	
+August 4, 2005	john.estes	X	X	X		buddy.guy		X		walter.horton			X	slim.harpo	sonny.williamson	X	rice.miller	X	elmore.james	gus.cannon		X	
+August 18, 2005	slim.harpo	X	X	X	roosevelt.sykes			X		brownie.mcghee			X	john.estes	bukka.white	X	earl.hooker	X	sonny.williamson	robert.nighthawk		X	
+September 1, 2005	james.cotton	X	X	X	bukka.white	brownie.mcghee	gus.cannon	robert.nighthawk		sonny.williamson	rice.miller	elmore.james	johnny.shines	walter.horton	roosevelt.sykes	X	slim.harpo	X	earl.hooker	slim.harpo		X	
+September 15, 2005	john.estes	X	X	X	buddy.guy		brownie.mcghee	robert.nighthawk						robert.nighthawk	bukka.white	X	walter.horton	X	earl.hooker	slim.harpo		X	
+October 20, 2005	brownie.mcghee	X	X	X	bukka.white	james.cotton				robert.nighthawk	walter.horton			earl.hooker	earl.hooker	X	jack.dupree	X	johnny.shines	johnny.shines		X	
+October 6, 2005	bukka.white	X	X	X	robert.nighthawk	slim.harpo	johnny.shines	jack.dupree		elmore.james	earl.hooker	james.cotton		gus.cannon	james.cotton	X		X				X	
+November 3, 2005	rice.miller	X	X	X	brownie.mcghee	walter.horton	jack.dupree	earl.hooker		james.cotton	bukka.white	james.cotton	johnny.shines	big.bill.broonzy	gus.cannon	X	robert.nighthawk	X	robert.nighthawk	big.bill.broonzy		X	
+November 17, 2005	walter.horton	X	X	X	earl.hooker	gus.cannon		robert.nighthawk		brownie.mcghee	bukka.white		james.cotton	slim.harpo	buddy.guy	X	jack.dupree	X	james.cotton	jack.dupree		X	
+fake for correction		X	X	X	gus.cannon	gus.cannon	gus.cannon	roosevelt.sykes								X		X				X	
+December 1, 2005	robert.nighthawk	X	X	X	jack.dupree	bukka.white				slim.harpo	gus.cannon			honeyboy.edwards	brownie.mcghee	X	james.cotton	X	big.bill.broonzy	honeyboy.edwards		X	
+December 28, 2005	buddy.guy	X	X	X	gus.cannon	brownie.mcghee	big.bill.broonzy	robert.nighthawk		earl.hooker	walter.horton	bukka.white	roosevelt.sykes	otis.spann	slim.harpo	X	jack.dupree	X	jack.dupree	walter.horton		X	
+January 5, 2006	james.cotton	X	X	X										brownie.mcghee	honeyboy.edwards	X	walter.horton	X	buddy.guy	gus.cannon		X	
+January 19, 2006	gus.cannon	X	X	X		honeyboy.edwards	robert.nighthawk	brownie.mcghee		big.bill.broonzy	james.cotton	bukka.white		walter.horton	bukka.white	X	james.cotton	X	son.house	james.cotton		X	
+February 2, 2006	brownie.mcghee	X	X	X	big.bill.broonzy		walter.horton	gus.cannon		brownie.mcghee		honeyboy.edwards	buddy.guy	james.cotton	james.cotton	X	bukka.white	X	buddy.guy	willie.brown		X	
+February 16, 2006	slim.harpo	X	X	X		honeyboy.edwards	brownie.mcghee			james.cotton	john.estes			bukka.white	roosevelt.sykes	X	honeyboy.edwards	X	gus.cannon	bukka.white		X	
+March 2, 2006	james.cotton	X	X	X	brownie.mcghee	gus.cannon	buddy.guy			honeyboy.edwards	bukka.white			huddie.ledbetter	slim.harpo	X	buddy.guy	X	freddie.king	luther.allison		X	
+March 16, 2006	bukka.white	X	X	X	huddie.ledbetter	freddie.king				roosevelt.sykes	luther.allison			walter.horton	brownie.mcghee	X	gus.cannon	X	gus.cannon	brownie.mcghee		X	
+March 30, 2006	roosevelt.sykes	X	X	X	honeyboy.edwards	willie.brown				brownie.mcghee				roosevelt.sykes	gus.cannon	X	wynonie.harris	X	huddie.ledbetter	walter.horton		X	
+April 6, 2006	freddie.king	X	X	X	robert.nighthawk	gus.cannon				james.cotton				honeyboy.edwards	big.bill.broonzy	X	huddie.ledbetter	X	brownie.mcghee	son.house		X	
+April 20, 2006	big.bill.broonzy	X	X	X				brownie.mcghee		luther.allison			freddie.king	gus.cannon	bukka.white	X	koko.taylor	X	james.cotton	huddie.ledbetter		X	
+May 4, 2006	buddy.guy	X	X	X	honeyboy.edwards	roosevelt.sykes	freddie.king	gus.cannon		luther.allison	slim.harpo	brownie.mcghee			huddie.ledbetter	X	james.cotton	X	buddy.guy	koko.taylor		X	
+May 18, 2006	honeyboy.edwards	X	X	X	bukka.white	koko.taylor	wynonie.harris	james.cotton		buddy.guy	slim.harpo	gus.cannon	roosevelt.sykes	huddie.ledbetter	james.cotton	X	koko.taylor	X	bukka.white	bukka.white		X	
+June 1, 2006	wynonie.harris	X	X	X	freddie.king	james.cotton	bukka.white					james.cotton	gus.cannon	slim.harpo	honeyboy.edwards	X	roosevelt.sykes	X	koko.taylor	roosevelt.sykes		X	
+June 15, 2006	koko.taylor	X	X	X	brownie.mcghee	bukka.white				huddie.ledbetter	james.cotton			junior.wells	roosevelt.sykes	X	gus.cannon	X	slim.harpo	freddie.king		X	
+June 29, 2006	freddie.king	X	X	X	junior.wells	huddie.ledbetter				koko.taylor		bukka.white		buddy.guy	honeyboy.edwards	X	gus.cannon	X	roosevelt.sykes	gus.cannon		X	
+July 6, 2006	gus.cannon	X	X	X		roosevelt.sykes				brownie.mcghee				bukka.white	koko.taylor	X	james.cotton	X	robert.nighthawk	walter.horton		X	
+July 20, 2006	huddie.ledbetter	X	X	X		gus.cannon					bukka.white	james.cotton		roosevelt.sykes	walter.horton	X	junior.wells	X	koko.taylor	freddie.king		X	
+August 3, 2006	junior.wells	X	X	X		brownie.mcghee	walter.horton			james.cotton		bukka.white		freddie.king	roosevelt.sykes	X	buddy.guy	X	gus.cannon	huddie.ledbetter		X	
+August 17, 2006	walter.horton	X	X	X	koko.taylor					roosevelt.sykes				gus.cannon	huddie.ledbetter	X	brownie.mcghee	X	bukka.white	ma.rainey		X	
+September 21, 2006	huddie.ledbetter	X	X	X	roosevelt.sykes	ma.rainey				koko.taylor				koko.taylor	james.cotton	X	brownie.mcghee	X	slim.harpo	ma.rainey		X	
+September 7, 2006	slim.harpo	X	X	X										koko.taylor	brownie.mcghee	X	huddie.ledbetter	X	james.cotton	brownie.mcghee		X	
+October 5, 2006	james.cotton	X	X	X	buddy.guy	james.cotton				koko.taylor				slim.harpo	big.bill.broonzy	X		X	brownie.mcghee			X	
+October 19, 2006	roosevelt.sykes	X	X	X	ma.rainey	gus.cannon				buddy.guy	brownie.mcghee			huddie.ledbetter	slim.harpo	X	brownie.mcghee	X	gus.cannon	huddie.ledbetter		X	
+November 2, 2006	brownie.mcghee	X	X	X							freddie.king			koko.taylor	huddie.ledbetter	X	huddie.ledbetter	X	brownie.mcghee	freddie.king		X	
+November 30, 2006		X	X	X	brownie.mcghee	buddy.guy	james.cotton			roosevelt.sykes	gus.cannon	buddy.guy	brownie.mcghee		gus.cannon	X	ma.rainey	X	huddie.ledbetter			X	
+December 7, 2006	brownie.mcghee	X	X	X	huddie.ledbetter	freddie.king				gus.cannon	james.cotton			james.cotton	koko.taylor	X	buddy.guy	X	buddy.guy	brownie.mcghee		X	
+December 21, 2006	james.cotton	X	X	X	willie.brown		ma.rainey			gus.cannon	roosevelt.sykes			buddy.guy	bobby.rush	X	roosevelt.sykes	X	huddie.ledbetter	james.cotton		X	
+January 4, 2007	koko.taylor	X	X	X	freddie.king	ma.rainey				ma.rainey	walter.horton			gus.cannon	brownie.mcghee	X	huddie.ledbetter	X	roosevelt.sykes	koko.taylor		X	
+January 18, 2007	ma.rainey	X	X	X	james.cotton					bobby.rush				huddie.ledbetter	james.cotton	X	slim.harpo	X	ma.rainey	huddie.ledbetter		X	
+February 1, 2007	gus.cannon	X	X	X	freddie.king	bobby.rush	james.cotton			walter.horton	brownie.mcghee	roosevelt.sykes		roosevelt.sykes	bobby.rush	X	brownie.mcghee	X	roosevelt.sykes	james.cotton		X	
+February 15, 2007	buddy.guy	X	X	X	koko.taylor					brownie.mcghee				X		X	gus.cannon	X				X	
+March 1, 2007	walter.horton	X	X	X	slim.harpo	huddie.ledbetter	james.cotton	ma.rainey		koko.taylor	brownie.mcghee	gus.cannon	roosevelt.sykes	brownie.mcghee	ma.rainey	X	bobby.rush	X	junior.wells	bobby.rush		X	
+March 15, 2007	brownie.mcghee	X	X	X	roosevelt.sykes	ma.rainey				huddie.ledbetter	junior.wells			ma.rainey	ma.rainey	X	parizad.parav	X	roosevelt.sykes	brownie.mcghee		X	
+March 29, 2007	huddie.ledbetter	X	X	X	gus.cannon					james.cotton				brownie.mcghee	roosevelt.sykes	X	james.cotton	X	roosevelt.sykes	brownie.mcghee		X	
+April 5, 2007	roosevelt.sykes	X	X	X	james.cotton									parizad.parav	gus.cannon	X	james.cotton	X	roosevelt.sykes	parizad.parav		X	
+April 19, 2007	slim.harpo	X	X	X	clifton.chenier	james.cotton	willie.brown			roosevelt.sykes	freddie.king			slim.harpo	james.cotton	X	parizad.parav	X	freddie.king	gus.cannon		X	
+May 3, 2007	brownie.mcghee	X	X	X	roosevelt.sykes	ma.rainey				ma.rainey	clifton.chenier			james.cotton	slim.harpo	X	gus.cannon	X	parizad.parav	clifton.chenier		X	
+May 17, 2007	james.cotton	X	X	X	buddy.guy	gus.cannon		willie.brown		ma.rainey	roosevelt.sykes		james.cotton		parizad.parav	X	willie.brown	X	brownie.mcghee	bobby.bland		X	
+May 31, 2007	ma.rainey	X	X	X		brownie.mcghee	bobby.bland	james.cotton		gus.cannon	james.cotton	brownie.mcghee		roosevelt.sykes	bobby.bland	X	paul.butterfield	X	marvin.sease	charley.patton		X	
+June 7, 2007	james.cotton	X	X	X	ma.rainey	paul.butterfield				huddie.ledbetter	gus.cannon			bobby.bland	huddie.ledbetter	X	ma.rainey	X	gus.cannon	willie.brown		X	
+June 21, 2007	gus.cannon	X	X	X						gus.cannon				ma.rainey	ma.rainey	X	roosevelt.sykes	X	james.cotton	slim.harpo		X	
+July 5, 2007	marvin.sease	X	X	X	paul.butterfield	bobby.bland				brownie.mcghee	james.cotton			huddie.ledbetter	roosevelt.sykes	X	paul.butterfield	X	john.mayall	john.mayall		X	
+July 19, 2007	john.mayall	X	X	X	marvin.sease	jake.blues				james.cotton	john.mayall			gus.cannon	huddie.ledbetter	X	huddie.ledbetter	X	james.cotton	marvin.sease		X	
+August 2, 2007	roosevelt.sykes	X	X	X		bobby.bland	huddie.ledbetter			james.cotton	brownie.mcghee			gus.cannon	slim.harpo	X	denise.lasalle	X	marvin.sease	jake.blues		X	
+August 16, 2007	bobby.bland	X	X	X	john.mayall		bobby.bland			ma.rainey	jake.blues			brownie.mcghee	willie.brown	X	marvin.sease	X	gus.cannon	john.mayall		X	
+August 30, 2007	huddie.ledbetter	X	X	X		jake.blues		charley.patton		bobby.bland	gus.cannon			marvin.sease	gus.cannon	X	john.mayall	X	john.mayall	bettye.lavette		X	
+September 6, 2007	jake.blues	X	X	X	gus.cannon	jake.blues				ma.rainey	bobby.bland			charley.patton	marvin.sease	X	jake.blues	X	charley.patton	bobby.bland		X	
+September 20, 2007	james.cotton	X	X	X	john.mayall									jake.blues	gus.cannon	X	willie.brown	X		willie.brown		X	
+October 4, 2007	john.mayall	X	X	X	jake.blues					james.cotton				huddie.ledbetter	ma.rainey	X	james.cotton	X	jake.blues	marvin.sease		X	
+October 18, 2007	jake.blues	X	X	X	ma.rainey	jake.blues				james.cotton	james.cotton			james.cotton	ma.rainey	X	albert.king	X	jake.blues	willie.brown		X	
+November 1, 2007	ma.rainey	X	X	X	albert.king	jake.blues	ma.rainey			jake.blues	james.cotton	gus.cannon		gary.davis	james.cotton	X	peggy.scottadams	X	jake.blues	johnny.winter		X	
+November 15, 2007	gary.davis	X	X	X	gary.davis	jake.blues				roosevelt.sykes	ma.rainey			albert.king	gus.cannon	X	johnny.winter	X	james.cotton	johnny.winter		X	
+November 29, 2007	ma.rainey	X	X	X			jake.blues			john.mayall				jake.blues	james.cotton	X	james.cotton	X	johnny.winter	john.mayall		X	
+December 6, 2007	gus.cannon	X	X	X										albert.king	huddie.ledbetter	X	charley.patton	X	charley.patton	albert.king		X	
+December 20, 2007	huddie.ledbetter	X	X	X	ma.rainey	slim.harpo	jake.blues	jake.blues		jake.blues	gus.cannon	albert.king	ma.rainey	gus.cannon	slim.harpo	X	johnny.winter	X	albert.king	johnny.winter		X	
+January 3, 2008	jake.blues	X	X	X	albert.king	huddie.ledbetter				james.cotton	gus.cannon			jake.blues		X	gus.cannon	X	jake.blues	james.cotton		X	
+January 31, 2008	john.mayall	X	X	X	john.mayall					gary.davis				johnny.winter	james.cotton	X	gary.davis	X	james.cotton	ma.rainey		X	
+February 7, 2008	johnny.winter	X	X	X										jake.blues	willie.brown	X	gus.cannon	X	jake.blues	james.cotton		X	
+February 21, 2008	james.cotton	X	X	X	huddie.ledbetter	jake.blues	james.cotton			gary.davis	jake.blues	ma.rainey		ma.rainey	huddie.ledbetter	X	gary.davis	X	jake.blues	willie.brown		X	
+March 6, 2008	willie.brown	X	X	X	gus.cannon	ma.rainey			willie.brown	jake.blues	huddie.ledbetter	ma.rainey	gus.cannon	X	willie.brown	X	james.cotton	X	X	james.cotton	X	X	
+April 3, 2008	jake.blues	X	X	X	james.cotton	jake.blues				huddie.ledbetter	gus.cannon				albert.king	X	gus.cannon	X	albert.king		X	X	
+April 17, 2008	jake.blues	X	X	X	james.cotton		jake.blues			james.cotton	albert.king			albert.king	james.cotton	X	willie.brown	X	james.cotton	albert.king	X	X	
+May 1, 2008	jake.blues	X	X	X										albert.king		X	willie.brown	X	gus.cannon	perry.bradford	X	X	
+May 15, 2008	gus.cannon	X	X	X	perry.bradford					albert.king				jake.blues	gus.cannon	X	willie.brown	X	jake.blues	willie.brown	X	X	
+June 19, 2008	gus.cannon	X	X	X	james.cotton									perry.bradford	jake.blues	X	jake.blues	X	jake.blues	gus.cannon		X	
+July 10, 2008	jake.blues	X	X	X			jake.blues			gus.cannon				perry.bradford	perry.bradford	X	charley.patton	X	charley.patton	frank.stokes		X	
+July 17, 2008	elwood.blues	X	X	X	gus.cannon	james.cotton	elwood.blues	jake.blues		jake.blues	benny.moten	perry.bradford	james.cotton	benny.moten	jake.blues	X	albert.king	X	perry.bradford	perry.bradford		X	
+August 7, 2008	james.cotton	X	X	X	albert.king	elwood.blues	perry.bradford			jake.blues	slim.harpo	gus.cannon		elwood.blues	jake.blues	X	perry.bradford	X	gus.cannon	frank.stokes		X	
+August 21, 2008	gus.cannon	X	X	X	louis.jordan	elwood.blues				jake.blues	james.cotton			benny.moten	james.cotton	X	frank.stokes	X	slim.harpo	mamie.smith		X	
+September 4, 2008 Part 1	willie.brown	X	X	X	jake.blues	artie.matthews	jake.blues	frank.stokes		elwood.blues	gus.cannon	bob.hicks	lonnie.johnson	X	james.cotton	X	lonnie.johnson	X	X	bob.hicks	X	X	
+September 4, 2008 Part 2		X	X	X										X		X	james.cotton	X	X	james.cotton	X	X	
+September 18, 2008	perry.bradford	X	X	X		artie.matthews		frank.stokes		albert.king	elwood.blues			charley.patton	charley.patton	X	jake.blues	X	albert.king	albert.king	gus.cannon	X	
+October 2, 2008	huddie.ledbetter	X	X	X		lonnie.johnson	louis.jordan	elwood.blues		perry.bradford	charley.patton	artie.matthews		gus.cannon	charley.patton	X	james.cotton	X	elwood.blues	james.cotton	james.cotton	X	
+October 23 2008	charley.patton	X	X	X	huddie.ledbetter		mamie.smith	bob.hicks	bob.hicks	frank.stokes	mamie.smith	gus.cannon		elwood.blues	jake.blues	X	jake.blues	X	elwood.blues	elwood.blues		X	
+November 6, 2008	frank.stokes	X	X	X	mamie.smith	james.cotton		lonnie.johnson		jake.blues	mamie.smith	gus.cannon		huddie.ledbetter	perry.bradford	X	jake.blues	X	jake.blues	james.cotton	gus.cannon	X	
+November 20, 2008	mamie.smith	X	X	X			elwood.blues	bob.hicks		james.cotton	jake.blues			lonnie.johnson	gus.cannon	X	jake.blues	X	gus.cannon	charley.patton	perry.bradford	X	
+December 4, 2008	lonnie.johnson	X	X	X		perry.bradford	elwood.blues	bob.hicks			bob.hicks	gus.cannon	jake.blues	artie.matthews	james.cotton	X	john.cephas	X	bob.hicks	victoria.spivey	huddie.ledbetter	X	
+December 18, 2008	gus.cannon	X	X	X	mamie.smith		elwood.blues			artie.matthews	james.cotton			charley.patton	artie.matthews	X	jb.lenoir	X	james.cotton	charley.patton	charley.patton	X	
+January 8, 2009	james.cotton	X	X	X	james.cotton			elwood.blues		artie.matthews		perry.bradford		jake.blues	perry.bradford	X	jb.lenoir	X	gary.davis	jb.lenoir	artie.matthews	X	
+January 22, 2009	bob.hicks	X	X	X	gary.davis	slim.harpo		huddie.ledbetter		perry.bradford	jake.blues		elwood.blues	james.cotton	mamie.smith	X	jake.blues	X	artie.matthews	perry.bradford	jake.blues	X	
+February 5, 2009	jake.blues	X	X	X	jb.lenoir	bob.hicks	gary.davis			charley.patton	huddie.ledbetter	bob.hicks		charley.patton	elwood.blues	X	james.cotton	X	gus.cannon	slim.harpo	bob.hicks	X	
+February 19, 2009	gary.davis	X	X	X	john.cephas	james.cotton	bob.hicks	victoria.spivey		gary.davis	jb.lenoir	elwood.blues	jake.blues	gus.cannon	charley.patton	X	bob.hicks	X	elwood.blues	jb.lenoir	elwood.blues	X	
