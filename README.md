@@ -21,8 +21,9 @@ First you can see the screenshots, but also there's a demo at:
 
   http://dl.dropbox.com/u/9324440/darts/darts.html
 
-The only difference is that that copy draws the JavaScript from there,
-unlike the original which drew it from FreeToastHost (as shown in this
-repository).
+The only difference is that that one retrieves the JavaScript from the
+same directory (i.e., doesn't specify), whereas the Real Thing (here)
+draws it from the Fairfax Toastmasters Club's public filespace on
+FreeToastHost (1.0)... which doesn't exist any more.
 
 -Dave
