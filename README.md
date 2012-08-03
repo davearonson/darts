@@ -17,6 +17,6 @@ FreeToastHost, running the Python program (possibly preceded by
 installing Python), and then interpreting the results.
 
 But never fear, you can still see what it looked like in operation.
-See the scereenshots.
+See the screenshots.
 
 -Dave
