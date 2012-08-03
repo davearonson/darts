@@ -17,6 +17,8 @@ FreeToastHost, running the Python program (possibly preceded by
 installing Python), and then interpreting the results.
 
 But never fear, you can still see what it looked like in operation.
-See the screenshots.
+First you can see the screenshots, but also there's a demo at:
+
+  http://dl.dropbox.com/u/9324440/darts/darts.html
 
 -Dave
