@@ -21,4 +21,8 @@ First you can see the screenshots, but also there's a demo at:
 
   http://dl.dropbox.com/u/9324440/darts/darts.html
 
+The only difference is that that copy draws the JavaScript from there,
+unlike the original which drew it from FreeToastHost (as shown in this
+repository).
+
 -Dave
